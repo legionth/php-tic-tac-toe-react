@@ -1,0 +1,16 @@
+{
+    "name": "legionth/php-tic-tact-toe-react",
+    "license": "MIT",
+    "require" : {
+        "react/socket": "^0.8.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0 || ^4.8.10"
+    },
+    "bin": [
+        "run.php"
+    ],
+    "autoload": {
+        "psr-4": { "Legionth\\TicTacToe\\": "src/" }
+    }
+}
